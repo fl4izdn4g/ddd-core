@@ -1,0 +1,43 @@
+{
+    "id": "<UUID>",
+    "type": "read | write",
+    "resource": {
+        "id": "<UUID>",
+        "type": "np. comment"
+    },
+    "version": "jakiś identyfikator wersji",
+    "accesses": {
+        "<userID1>": [
+            {
+                "period": {
+                    "from": "data",
+                    "to": "data"
+                },
+                "type": "time|break"
+            },
+            {
+                "period": {
+                    "from": "data",
+                    "to": "data"
+                },
+                "type": "time|break"
+            }
+        ],
+        "<userID2>": [
+            {
+                "period": {
+                    "from": "data",
+                    "to": "data"
+                },
+                "type": "time|break"
+            },
+            {
+                "period": {
+                    "from": "data",
+                    "to": "data"
+                },
+                "type": "time|break"
+            }
+        ]
+    }
+}
